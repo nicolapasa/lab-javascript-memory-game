@@ -9,7 +9,7 @@ class MemoryGame {
 
   shuffleCards() {
 
-    if(this.cards.length===0) return 'undefined'
+    if(!this.cards) return undefined
   
     for (let index = this.cards.length-1; index >0; index--) {
                 
